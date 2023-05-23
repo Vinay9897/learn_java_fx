@@ -70,10 +70,10 @@ public class Main extends Application {
 //			=====================================================
 			
 			Parent root = FXMLLoader.load(getClass().getResource("/Main.fxml"));
-//			Scene scene  = new Scene(root,400, 400);
+			Scene scene  = new Scene(root,600, 400);
 //			scene.getStylesheets().add(getClass().getResource("applicatio.css").toExternalForm());
 			primaryStage.setTitle("Web Design");
-			primaryStage.setScene(new Scene(root,300,300));
+			primaryStage.setScene(scene);
 			primaryStage.show();
 			
 			
