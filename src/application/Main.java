@@ -66,12 +66,19 @@ public class Main extends Application {
 //			primaryStage.setFullScreenExitHint("you can escape until you type V");
 //			primaryStage.setFullScreenExitKeyCombination(KeyCombination.valueOf("V"));
 			
+			
+//			=====================================================
+			
 			Parent root = FXMLLoader.load(getClass().getResource("/Main.fxml"));
-			Scene scene  = new Scene(root,400, 400);
-			scene.getStylesheets().add(getClass().getResource("applicatio.css").toExternalForm());
+//			Scene scene  = new Scene(root,400, 400);
+//			scene.getStylesheets().add(getClass().getResource("applicatio.css").toExternalForm());
 			primaryStage.setTitle("Web Design");
 			primaryStage.setScene(new Scene(root,300,300));
 			primaryStage.show();
+			
+			
+			
+			
 			
 		} catch(Exception e) {
 			e.printStackTrace();
