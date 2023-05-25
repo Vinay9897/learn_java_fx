@@ -1,1 +1,12 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color:"aliceblue";
+}
+
+#myCircle{
+	-fx-background-color:"yellow";
+}
+
+#myLabel{
+	-fx-align:"center";
+}

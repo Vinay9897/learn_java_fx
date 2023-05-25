@@ -69,17 +69,13 @@ public class Main extends Application {
 			
 //			=====================================================
 			
-			Parent root = FXMLLoader.load(getClass().getResource("/Main.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("/RadioScene.fxml"));
 			Scene scene  = new Scene(root,600, 400);
-//			scene.getStylesheets().add(getClass().getResource("applicatio.css").toExternalForm());
+			String css = this.getClass().getResource("application.css").toExternalForm();
+			scene.getStylesheets().add(css);
 			primaryStage.setTitle("Web Design");
 			primaryStage.setScene(scene);
 			primaryStage.show();
-			
-			
-			
-			
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

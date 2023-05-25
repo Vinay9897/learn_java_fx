@@ -16,21 +16,21 @@ public class Controller {
 	
 	public void left(ActionEvent e)
 	{
-		myCircle.setCenterX(x-=1);
+		myCircle.setCenterX(x-=2);
 	}
 	
 	public void down(ActionEvent e)
 	{
 	
-		myCircle.setCenterY(y+=1);
+		myCircle.setCenterY(y+=2);
 	}
 	
 	public void up(ActionEvent e)
 	{
-	myCircle.setCenterY(y-=1);
+	myCircle.setCenterY(y-=2);
 	}
 	public void right(ActionEvent e)
 	{
-		myCircle.setCenterX(x+=1);
+		myCircle.setCenterX(x+=2);
 	}
 }
